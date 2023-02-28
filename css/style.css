@@ -1,3 +1,25 @@
 .fp-watermark {
   display: none !important;
 }
+
+.first {
+  background-image: url(/img/1.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.context {
+  padding: 30px;
+  margin: 50px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.context h1 {
+  font-size: 60px;
+}
+
+.context h2 {
+  font-size: 40px;
+}
