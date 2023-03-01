@@ -9,7 +9,8 @@ body {
 
 .first,
 .ubication,
-.await {
+.await,
+.requeriments {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,6 +26,10 @@ body {
 
 .await {
   background-image: url(/img/await.jpeg);
+}
+
+.requeriments {
+  background-image: url(/img/req.jpeg);
 }
 
 .context {
