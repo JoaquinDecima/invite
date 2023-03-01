@@ -2,11 +2,19 @@
   display: none !important;
 }
 
-.first {
-  background-image: url(/img/1.jpeg);
+.first,
+.ubication {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.first {
+  background-image: url(/img/1.jpeg);
+}
+
+.ubication {
+  background-image: url(/img/museo.jpeg);
 }
 
 .context {
