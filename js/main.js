@@ -10,3 +10,4 @@ const timer = new CountdownTimer({
 });
 
 timer.startTimer();
+AOS.init();
