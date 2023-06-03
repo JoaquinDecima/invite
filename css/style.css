@@ -1,100 +1,108 @@
 body {
-  font-family: "Comic Sans MS", "Trebuchet MS", "Lucida Sans Unicode",
-    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-family: 'Comic Sans MS', 'Trebuchet MS', 'Lucida Sans Unicode',
+		'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .fp-watermark {
-  display: none !important;
+	display: none !important;
 }
 
 .first,
 .ubication,
 .await,
 .requeriments {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .first {
-  background-image: url(https://cdn.shopify.com/s/files/1/0676/2826/9848/products/IMG_0160_1.jpg?v=1672725722&width=1445);
+	background-image: url(/img/15martina.jpg);
+	background-size: auto;
+	background-color: #fff;
 }
 
 .ubication {
-  background-image: url(https://images.sparairnos.com/property/51128/images/580882/full/b3d7a4d7-f9a0-4fa1-ad28-6e69a93707a1);
+	background-image: url(/img/fiesta.jpg);
 }
 
 .await {
-  background-image: url(https://i.pinimg.com/736x/bc/92/1e/bc921ed5a53d2031afada1366e06dcab.jpg);
+	background-image: url(/img/corazon.jpg);
 }
 
 .requeriments {
-  background-image: url(https://http2.mlstatic.com/D_NQ_NP_648061-MLA53478525544_012023-W.jpg);
+	/*background-image: url(https://http2.mlstatic.com/D_NQ_NP_648061-MLA53478525544_012023-W.jpg);*/
+	background-color: #000;
 }
 
 .context {
-  padding: 30px;
-  margin: 50px 0;
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
+	padding: 30px;
+	margin: 50px 0;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
 }
 
 .context h1 {
-  font-size: 60px;
+	font-size: 60px;
 }
 
 .context h2 {
-  font-size: 40px;
+	font-size: 40px;
 }
 .clock div {
-  padding: 5px;
+	padding: 5px;
 }
 
 .clock div div {
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 2rem;
-  font-size: 2.5rem;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 2rem;
+	font-size: 2.5rem;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 10px;
 }
 
-.clock div div[data-value*="days"]:after,
-.clock div div[data-value*="hours"]:after,
-.clock div div[data-value*="minutes"]:after,
-.clock div div[data-value*="seconds"]:after {
-  display: block;
-  font-size: 0.75rem;
-  margin-top: 0.25rem;
-  font-weight: 300;
+.clock div div[data-value*='days']:after,
+.clock div div[data-value*='hours']:after,
+.clock div div[data-value*='minutes']:after,
+.clock div div[data-value*='seconds']:after {
+	display: block;
+	font-size: 0.75rem;
+	margin-top: 0.25rem;
+	font-weight: 300;
 }
 
-.clock div[data-value*="days"]:after {
-  content: "Days";
+.clock div[data-value*='days']:after {
+	content: 'Days';
 }
 
-.clock div[data-value*="hours"]:after {
-  content: "Hours";
+.clock div[data-value*='hours']:after {
+	content: 'Hours';
 }
 
-.clock div[data-value*="minutes"]:after {
-  content: "Minutes";
+.clock div[data-value*='minutes']:after {
+	content: 'Minutes';
 }
 
-.clock div[data-value*="seconds"]:after {
-  content: "Seconds";
+.clock div[data-value*='seconds']:after {
+	content: 'Seconds';
 }
 
 .title {
-  color: #000;
-  font-size: 80px;
-  margin-bottom: 30px;
+	color: #000;
+	font-size: 80px;
+	margin-bottom: 30px;
 }
 
 .mini-card {
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 10px;
-  padding: 20px;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.martina {
+	max-height: calc(100vh - 150px);
+	border-radius: 10px;
 }
