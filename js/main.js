@@ -10,4 +10,5 @@ const timer = new CountdownTimer({
 });
 
 timer.startTimer();
-AOS.init();
+//AOS.init();
+new WOW().init();

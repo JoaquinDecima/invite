@@ -17,9 +17,8 @@ body {
 }
 
 .first {
-	background-image: url(/img/15martina.jpg);
 	background-size: auto;
-	background-color: #fff;
+	background-color: #000;
 }
 
 .ubication {
