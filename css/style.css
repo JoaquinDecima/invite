@@ -1,6 +1,12 @@
+@font-face {
+	font-family: 'roky';
+	src: url('/fonts/roky.ttf') format('opentype');
+}
 body {
-	font-family: 'Comic Sans MS', 'Trebuchet MS', 'Lucida Sans Unicode',
+	font-family: 'roky', 'Comic Sans MS', 'Trebuchet MS', 'Lucida Sans Unicode',
 		'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	letter-spacing: 6px;
+	line-height: 45px;
 }
 
 .fp-watermark {
